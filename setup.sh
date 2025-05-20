@@ -29,12 +29,12 @@ echo "--------------------------------------------------------------------------
 echo "this is project https://github.com/teachingarco/"$project
 echo "-----------------------------------------------------------------------------"
 git config --global pull.rebase false
-git config --global user.name "Teaching Arco"
-git config --global user.email "teachingarco@gmail.com"
+git config --global user.name "ghost-itz"
+git config --global user.email "natanaelc.teles05@gmail.com"
 sudo git config --system core.editor nano
 git config --global push.default simple
 
-git remote set-url origin git@github.com:teachingarco/$project
+git remote set-url origin git@github.com:ghost-itz/$project
 
 echo "Everything set"
 
